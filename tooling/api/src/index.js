@@ -8,16 +8,17 @@
  * This module exposes all other modules as an object where the key is the module name, and the value is the module exports.
  * @example
  * ```typescript
- * import { app, dialog, event, fs, globalShortcut } from '@tauri-apps/api'
+ * import { event, tauri } from '@tauri-apps/api'
  * ```
  * @module
  */
 
-import * as event from './event'
-import * as tauri from './tauri'
-import * as path from './path'
+import * as e from '@tauri-apps/api/event'
+import * as t from '@tauri-apps/api/tauri'
 
-/** @ignore */
-const invoke = tauri.invoke
+/** @type {typeof e} */
+const event = e
+/** @type {typeof t} */
+const tauri = t
 
-export { invoke, event, path, tauri }
+export { event, tauri }

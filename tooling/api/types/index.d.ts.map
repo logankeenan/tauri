@@ -1,0 +1,29 @@
+{
+	"version": 3,
+	"file": "index.d.ts",
+	"names": [
+		"event",
+		"tauri",
+		"InvokeArgs",
+		"InvokeOptions",
+		"Channel",
+		"PluginListener",
+		"addPluginListener",
+		"invoke",
+		"listen",
+		"BaseDirectory"
+	],
+	"sources": [
+		"../src/index.js",
+		"../src/tauri.js",
+		"../src/event.js",
+		"../src/event.d.ts"
+	],
+	"sourcesContent": [
+		null,
+		null,
+		null,
+		null
+	],
+	"mappings": ";;;;;cAmBMA,KAAKA;;cAELC,KAAKA;;;;;;;;aCgGiEC,UAAUA;aAM5BC,aAAaA;;;;;;;;;;cA7GjEC,OAAOA;;;;;;;;;;;;cA6CPC,cAAcA;;;;;;;;;;;;;;;;;;;;iBA8CLC,iBAAiBA;;;;;;;;;;;;;;;;;;;;;;;;;iBAoCjBC,MAAMA;;;;;;;;;;;;;;;;;;;;iBCnEZC,MAAMA;;;;;;;;;;;;;;;;;aC/BEC,aAAaA;kBAAbA,aAAaA"
+}
